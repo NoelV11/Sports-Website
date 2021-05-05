@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Home</title>
+	<meta name="description" content="Home Page">
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body{
+            background: url("log5.jpg") no-repeat center center fixed;
+            background-size: 100% 100%;
+        }
+        img{
+            transition-property: border-radius;
+	        transition-duration: .5s;
+	        transition-timing-function: ease-in-out; 
+        }
+        img:hover{
+            border-radius: 50%;
+        }
+        h2{
+            margin-left: 27%;
+            margin-right: 27%;
+            background: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            position: relative;
+            top: 32px;
+            background: white;
+            opacity: 0.85;
+        }
+        main{
+            margin-top: 15%;
+            margin-bottom: 15%;
+        }
+        
+        .navbar {
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.85;
+}
+
+.navbar a {
+  float: left;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 21px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+        
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: aliceblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1 style="font-family: fantasy; font-size: 300%;">Sports Website</h1>
+        
+        <div class="navbar">
+        
+  <a href="Home.html" style="margin-left: 28%;">Home</a>
+  <a href="Feedback.html">Feedback</a>
+            
+  <div class="dropdown">
+    <button class="dropbtn">Cricket
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Cricket/CHome.html">Home</a>
+      <a href="Cricket/CFoundations.html">Foundations</a>
+      <a href="Cricket/CLive.html">Live Scores</a>
+      <a href="Cricket/CGreats.html">Greats</a>
+    </div>
+            </div>  
+     
+            <div class="dropdown">
+    <button class="dropbtn">Basketball
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Basketball/BHome.html">Home</a>
+      <a href="Basketball/BFoundations.html">Foundations</a>
+      <a href="Basketball/BLive.html">Live Scores</a>
+      <a href="Basketball/BGreats.html">Greats</a>
+    </div>
+            </div>
+     
+            <div class="dropdown">
+    <button class="dropbtn">Soccer
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Soccer/SHome.html">Home</a>
+      <a href="Soccer/SFoundations.html">Foundations</a>
+      <a href="Soccer/SLive.html">Live Scores</a>
+      <a href="Soccer/SGreats.html">Greats</a>
+    </div>
+            </div>
+            
+            
+    <div class="dropdown">  
+    <button class="dropbtn">Tennis
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Tennis/THome.html">Home</a>
+      <a href="Tennis/TFoundations.html">Foundations</a>
+      <a href="Tennis/TLive.html">Live Scores</a>
+      <a href="Tennis/TGreats.html">Greats</a>
+    </div>  
+  </div> 
+</div>
+    </header>
+    
+    
+    <main>
+	    <div style="display: block; margin-left: auto; margin-right: auto; border: 1px solid grey; background: white; padding-top: 3%; padding-bottom: 3%; border-radius: 10%; opacity: 0.85; width: 30%; margin-top: 5%;">
+	    	<h2 style="text-align: center;">Cricket Hub</h2>
+            <br>
+	    	<a href="Cricket/CHome.html"><img class="H" src="Cric.jpg" style="display: block; margin-left: auto; margin-right: auto;"></a>
+	    </div>
+	    <br><br><br>
+        <div style="display: block; margin-left: auto; margin-right: auto; border: 1px solid grey; background: white; padding-top: 3%; padding-bottom: 3%; border-radius: 10%; opacity: 0.85; width: 30%; margin-top: 5%;">
+        	<h2 style="text-align: center; margin-left: 23%; margin-right: 23%;">Basketball Hub</h2>
+            <br>
+        	<a href="Basketball/BHome.html"><img class="H" src="Bask.jpg" style="display: block; margin-left: auto; margin-right: auto;"></a>
+        </div>
+        <br><br><br>
+        <div style="display: block; margin-left: auto; margin-right: auto; border: 1px solid grey; background: white; padding-top: 3%; padding-bottom: 3%; border-radius: 10%; opacity: 0.85; width: 30%; margin-top: 5%;">
+        	<h2 style="text-align: center;">Soccer Hub</h2>
+            <br>
+        	<a href="Soccer/SHome.html"><img class="H" src="Soc.jpg" style="display: block; margin-left: auto; margin-right: auto;"></a>
+        </div>
+        <br><br><br>
+        <div style="display: block; margin-left: auto; margin-right: auto; border: 1px solid grey; background: white; padding-top: 3%; padding-bottom: 3%; border-radius: 10%; opacity: 0.85; width: 30%; margin-top: 5%;">
+        	<h2 style="text-align: center;">Tennis Hub</h2>
+            <br>
+        	<a href="Tennis/THome.html"><img class="H" src="Ten.jpg" style="display: block; margin-left: auto; margin-right: auto;"></a>
+        </div>
+        <br><br><br>
+    
+        <div style="display: block; margin-left: auto; margin-right: auto; border: 1px solid grey; background: white; padding-top: 3%; padding-bottom: 3%; border-radius: 10%; opacity: 0.85; width: 30%; margin-top: 5%;">
+        	<h2 style="text-align: center; margin-left: 23%; margin-right: 23%;">Feedback Page</h2>
+            <br>
+        	<a href="Feedback.html"><img class="H" src="Feedback.png" style="display: block; margin-left: auto; margin-right: auto;"></a>
+        </div>
+        </main>
+    
+    
+    <footer>
+        
+        
+        <div class="navbar">
+        
+  <a href="Home.html" style="margin-left: 25%;">Home</a>
+  <a href="Feedback.html">Feedback</a>
+  <a href="Cricket/CHome.html">Cricket Hub</a>
+  <a href="Basketball/BHome.html">Basketball Hub</a>            
+  <a href="Soccer/SHome.html">Soccer Hub</a>
+  <a href="Tennis/THome.html">Tennis Hub</a>            
+  
+</div>
+        
+<h1 style="font-family: fantasy; font-size: 300%; top: -33px;">Sports Website</h1>        
+    </footer>
+
+</body>
+</html>

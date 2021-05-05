@@ -1,0 +1,116 @@
+body{
+    background: url("Clog.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-size: 125%;
+}
+header{
+    opacity: 0.85;
+    margin-bottom: 10%;
+    padding: 3%;
+}
+nav{
+    background: black;
+}
+nav a{
+    width: 16%;
+    text-align: center;
+	display: inline-block;
+    margin: 1%;
+    margin-left: 2%;
+	background: #000000;
+	border-radius: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	transition-property:  color, background;
+	transition-duration: .1s;
+	transition-timing-function: ease;
+}
+nav a:hover{
+	color: #ffffff;
+	background: crimson;
+}
+.Active{
+	background-color: darkslateblue;
+	color: white;
+}
+footer{
+    display: block;
+    opacity: 0.85;
+    margin-top: 10%;
+    padding: 3%;
+}
+footer h1{
+    position: relative;
+    top: -33px;
+}
+footer a{
+    background: darkslateblue;
+}
+footer a:hover{
+    background-color: crimson;
+}
+h1{
+    text-align: center;
+    background: white;
+    color: black;
+    position: relative;
+    top: 37px;
+    font-family: "Arial Black" ;
+}
+#Chistory{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    border: 1px solid grey;
+    border-radius: 10%;
+    background: white;
+    opacity: 0.85;
+}
+#Crules{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    border: 1px solid grey;
+    border-radius: 10%;
+    background: white;
+    opacity: 0.85;
+}
+#Cformats{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    border: 1px solid grey;
+    border-radius: 10%;
+    background: white;
+    opacity: 0.85;
+}
+.CHimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.CRimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.CFimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h3{
+    text-align: center;
+    background: black;
+    color: white;
+}
+h4{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background: darkslateblue;
+    color: white;
+}
