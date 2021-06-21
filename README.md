@@ -46,7 +46,7 @@ Feedback form for visitors
 
 ![5](https://user-images.githubusercontent.com/77625109/122791610-01818880-d2d7-11eb-8828-c76e3da983b0.jpg)
 
-## Improvemnts
+## Improvements
 
 - The background of the webpages require good design and it feels bland leaving it a white background
 - Response time for UI can be increased
