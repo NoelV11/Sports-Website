@@ -4,7 +4,7 @@ The all in one source for your daily sports fix
 
 Cricket,Soccer,Tennis ..we've got you covered
 
-## Functionality of Website
+## Functionality of the Website
 
 - Display information about's each sport's history and it's players
 - Card display for live matches taking place (need to be updated accordingly)
